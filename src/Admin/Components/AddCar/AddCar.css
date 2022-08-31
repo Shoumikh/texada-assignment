@@ -1,0 +1,94 @@
+/* .addcar__logo {
+  height: 40px;
+  width: 104px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  color: seagreen;
+} */
+
+.addcar {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  /* padding-top: 10px; */
+  padding-bottom: 60px;
+  width: 100%;
+  /* height: auto; */
+}
+
+.addcar__infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+  /* height: auto; */
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.addcar__infoBox > h2 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.addcar__option > p {
+  text-align: left;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 13px;
+  margin: 5px 0px;
+}
+
+.addcar__option {
+  display: flex;
+  flex-direction: column;
+}
+.addcar__option > button {
+  padding: 6px 6px;
+  margin: 10px 0px;
+  width: 100%;
+  background: seagreen;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.addcar__option > button:hover {
+  color: seagreen;
+  background: white;
+}
+
+.addcar__option > input {
+  padding: 6px 6px;
+  margin: 5px 0px;
+}
+
+.addcar__inputFeedback {
+  color: crimson;
+  font-size: 12px;
+  text-align: right;
+}
+
+.addcar__phone {
+  margin: 10px 0px;
+  margin-bottom: 10px;
+}
+
+.login__inputFeedback {
+  width: 100%;
+  text-align: right;
+}
+input {
+  background-color: #e8f0fe;
+}
+
+body {
+  background-color: snow;
+}

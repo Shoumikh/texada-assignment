@@ -7,6 +7,7 @@
   border-radius: 5px;
   padding: 20px 30px;
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  display: none;
 }
 
 .rentForm__container {
@@ -36,9 +37,16 @@
   border-radius: 100px;
 }
 
+.rentForm__carCategory {
+  background: white;
+  border-color: white;
+}
+
 .dropdown {
   width: 200px;
   height: auto;
+  background: white;
+  border-color: white;
 }
 
 /* .rentForm__dropdown {
@@ -50,10 +58,50 @@
 } */
 
 #dropdown-menu-align-right {
+  /* background-color: #0292d3;
+  border-color: #0292d3; */
   background-color: seagreen;
+  border-color: seagreen;
+  border-radius: 4px;
   width: 100%;
+  margin: 0px 5px;
 }
 
 .rentForm__carCategory {
-  background-color: slateblue;
+}
+
+@media all and (max-width: 720px) {
+  .rentForm__container > h2 {
+    font-size: 24px;
+  }
+
+  .rentForm__inputContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .rentForm__carCategory {
+    width: 100%;
+    min-width: 200px;
+    background: white;
+    border-color: white;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .rentForm__datePicker {
+    max-width: 506px;
+    width: 100%;
+    min-width: 200px;
+    border-color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  Button {
+    width: 100%;
+    min-width: 200px;
+  }
+  button {
+    background: #006d9e;
+  }
 }

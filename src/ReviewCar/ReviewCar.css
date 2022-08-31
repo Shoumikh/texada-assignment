@@ -1,0 +1,108 @@
+.carCard {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+}
+.carCard > img {
+  width: 350px;
+}
+
+.carCard__info {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.carCard__info > h3 {
+  font-size: 24px;
+}
+
+.carCard__info > p {
+  margin-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.carCard__icons {
+  margin-top: 10px;
+}
+
+.carCard__icons > span {
+  padding-right: 20px;
+}
+
+.carCard__items {
+  display: flex;
+}
+
+.carCard__itemOne {
+  flex: 1;
+  padding-top: 0px;
+}
+
+.carCard__itemTwo {
+  flex: 1;
+  padding-top: 0px;
+}
+
+.carCard__itemBox > span {
+  font-size: 14px;
+}
+
+.carCard__price {
+  padding-top: 20px;
+}
+
+.carCard__price > strong {
+  /* color: orange; */
+  font-size: 20px;
+}
+
+.carCard__itemPrice {
+  flex: 2;
+}
+
+.carCard__itemPrice > p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.carCard__itemHeader {
+  padding-bottom: 10px;
+}
+
+.carCard__typeHead {
+  padding-left: 10px;
+  margin-bottom: 30px;
+  font-style: bold;
+  color: seagreen;
+}
+
+.carCard__radio {
+  margin-right: 10px;
+}
+
+.carCard__itemPrice > button {
+  margin-top: 20px;
+  padding: 2px 10px;
+  background-color: seagreen;
+  color: white;
+  font-size: 10px;
+  border: 1px solid green;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.carCard__itemPrice > button:hover {
+  background-color: white;
+  color: seagreen;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 990px) {
+  .carCard {
+    display: flex;
+    flex-direction: column;
+  }
+}

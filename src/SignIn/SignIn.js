@@ -1,31 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import "./SignIn.css";
+import { Link, useHistory } from "react-router-dom";
+import validate from "./validateInfo";
+import useForm from "./useForm";
 
-function SignIn() {
+const SignIn = ({ submitForm }) => {
+  const { handleChange, handleSubmit, values, errors } = useForm(
+    submitForm,
+    validate
+  );
+
+  const history = useHistory();
+
+  
+
   return (
     <div className="login">
-      {/* <Link to="/">
-        <img className="login__logo" src={amazon_logo_black} alt="" />
-      </Link> */}
       <h2 className="login__logo">Bengal</h2>
-
       <div className="login__infoBox">
         <h2>Sign-In</h2>
-        <form className="login__option">
+        <form className="login__option" onSubmit={handleSubmit} noValidate>
           <p>Email</p>
-          <input
+          {/* <input
             type="text"
+            name="email"
             // value={email}
             // onChange={(e) => setEmail(e.target.value)}
+            /> */}
+
+          <input
+            type="email"
+            name="email"
+            value={values.email}
+            onChange={handleChange}
           />
+          {errors.email && (
+            <p className="login__inputFeedback">{errors.email}</p>
+          )}
 
           <p>Password</p>
-          <input
+          {/* <input
             type="password"
+            name="password"
             // value={password}
             // onChange={(e) => setPassword(e.target.value)}
+          /> */}
+
+          <input
+            className="form-input"
+            type="password"
+            name="password"
+            value={values.password}
+            onChange={handleChange}
           />
+          {errors.password && (
+            <p className="login__inputFeedback">{errors.password}</p>
+          )}
 
           <button type="submit">Sign In</button>
         </form>
@@ -44,9 +75,11 @@ function SignIn() {
         </div>
       </div>
       <p className="login__newToAmazon">New to Bengal Car Rental?</p>
-      <button className="login__buttonCreateAccount">Register</button>
+      <Link to="/registration">
+        <button className="login__buttonCreateAccount">Register</button>
+      </Link>
     </div>
   );
-}
+};
 
 export default SignIn;

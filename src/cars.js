@@ -1,4 +1,4 @@
-export const data = [
+export const cars = [
   {
     code: 'p1',
     name: 'Air Compressor 12 GAS',

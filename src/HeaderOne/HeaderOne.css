@@ -4,12 +4,20 @@
   align-items: center;
   justify-content: space-between;
   color: white;
+  padding: 10px 0px;
 }
 
 .headerOne__left {
   display: flex;
   justify-content: center;
   flex: 3;
+}
+
+.headerOne__left > p {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  font-size: 14px;
 }
 .headerOne__right {
   display: flex;
@@ -19,5 +27,5 @@
   flex: 4;
 }
 .headerOne__rightItem {
-  padding: 10px 20px;
+  margin-right: 20px;
 }

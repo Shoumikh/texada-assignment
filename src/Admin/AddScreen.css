@@ -1,0 +1,27 @@
+.addScreen {
+  display: flex;
+  justify-content: center;
+}
+
+.addScreen__container {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.addScreen__left {
+  width: 20%;
+  min-width: 270px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.addScreen__right {
+  width: 100%;
+}

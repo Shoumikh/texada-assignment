@@ -1,13 +1,22 @@
 .footer {
   display: flex;
   justify-content: center;
-  width: 100%;
-  align-items: center;
-  padding: 5% 0px;
-  border-top: 1px solid lightgrey;
 }
 
 .footer__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0px;
+  background-color: white;
+  /* border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey; */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-width: 1500px;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -20,4 +29,20 @@
 
 .footer__col > h2 {
   color: seagreen;
+  font-size: 22px;
+}
+
+.footer__col > h3 {
+  font-size: 18px;
+}
+
+.footer__col > p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+@media only screen and (max-width: 990px) {
+  /* .footer__container {
+    display: flex;
+    flex-direction: column;
+  } */
 }

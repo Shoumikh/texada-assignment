@@ -1,0 +1,84 @@
+.registration__logo {
+  height: 40px;
+  width: 104px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  color: seagreen;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  height: 85vh;
+}
+
+.registration__infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  height: auto;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.registration__infoBox > h2 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.registration__option > p {
+  text-align: left;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 13px;
+  margin: 5px 0px;
+}
+
+.registration__option {
+  display: flex;
+  flex-direction: column;
+}
+.registration__option > button {
+  padding: 6px 6px;
+  margin: 10px 0px;
+  width: 100%;
+  background: seagreen;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.registration__option > button:hover {
+  color: seagreen;
+  background: white;
+}
+
+.registration__option > input {
+  padding: 6px 6px;
+  margin: 5px 0px;
+}
+
+.registration__inputFeedback {
+  color: crimson;
+  font-size: 12px;
+}
+
+.registration__phone {
+  margin: 10px 0px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: snow;
+}

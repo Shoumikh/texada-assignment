@@ -8,8 +8,8 @@ function Footer() {
         <div className='footer__col'>
           <h2>Texada</h2>
           <p>
-            Lorem ipsum dolor sit amet,
-            <br /> consectetur adipisicing elit sed <br /> do eiusmod tempor incididunt ut labore.
+            A car rental company that offers
+            <br /> cars all over the country. <br /> Book your car today to enjoy a first class riding experience.
           </p>
         </div>
         <div className='footer__col'>
