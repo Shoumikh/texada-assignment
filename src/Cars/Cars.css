@@ -1,0 +1,25 @@
+.cars {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.cars__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars__cardContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cars__cardItem {
+  width: 80%;
+  min-width: 900px;
+}

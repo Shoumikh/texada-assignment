@@ -1,0 +1,59 @@
+.rentForm {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.rentForm__container {
+  width: 80%;
+}
+
+.rentForm__container > h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: seagreen;
+}
+
+.rentForm__datePicker {
+  padding: 8px;
+  border: 1px solid seagreen;
+}
+.rentForm__inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 25px;
+  border-radius: 100px;
+}
+
+.dropdown {
+  width: 200px;
+  height: auto;
+}
+
+/* .rentForm__dropdown {
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px;
+  width: 100px;
+  background-color: black;
+} */
+
+#dropdown-menu-align-right {
+  background-color: seagreen;
+  width: 100%;
+}
+
+.rentForm__carCategory {
+  background-color: slateblue;
+}

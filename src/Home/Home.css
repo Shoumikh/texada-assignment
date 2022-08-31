@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px auto;
+  max-width: 1500px;
+  height: auto;
+}
+
+.home__conatainer {
+  display: flex;
+  justify-content: center;
+}
+
+.home__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 20px; */
+  margin-top: 100px;
+}
+
+.home__title > h2 {
+  color: #0591d5;
+  color: #006d9e;
+  color: seagreen;
+  font-size: 36px;
+  font-weight: bolder;
+  z-index: 2;
+}
+.home__title > p {
+  color: #0591d5;
+  color: seagreen;
+  font-weight: bolder;
+  z-index: 2;
+}
+
+.home__image {
+  object-fit: contain;
+  width: 100%;
+  margin-top: -160px;
+  z-index: 1;
+}
+
+.home__rentForm {
+  /* background-color: white; */
+  /* padding: 100px 0px; */
+  /* margin-top: -100px; */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+  border-radius: 10px;
+}
+
+.home__carsBox {
+  width: 90%;
+  border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 5% 0px;
+  border-top: 1px solid lightgrey;
+}
+
+.footer__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer__col {
+  padding-left: 5%;
+  flex: 1;
+}
+
+.footer__col > h2 {
+  color: seagreen;
+}

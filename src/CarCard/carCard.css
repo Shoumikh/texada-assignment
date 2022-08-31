@@ -1,0 +1,103 @@
+.carCard {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+}
+.carCard > img {
+  width: 350px;
+}
+
+.carCard__info {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.carCard__info > h3 {
+  font-size: 24px;
+}
+
+.carCard__info > p {
+  margin-bottom: 0px;
+}
+
+.carCard__icons {
+  margin-top: 10px;
+}
+
+.carCard__icons > span {
+  padding-right: 20px;
+}
+
+.carCard__items {
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.carCard__itemBox {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.carCard__itemOne {
+  flex: 1;
+}
+
+.carCard__itemTwo {
+  flex: 1;
+}
+
+.carCard__itemPrice {
+  flex: 2;
+}
+
+.carCard__itemPriceBook {
+  padding: 2px 100px;
+  background-color: seagreen;
+  color: white;
+
+  font-size: 10px;
+  border: 1px solid green;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.carCard__itemPriceBook:hover {
+  background-color: white;
+  color: seagreen;
+
+  cursor: pointer;
+}
+
+.carCard__itemPriceReturn {
+  padding: 2px 93px;
+  background-color: white;
+  color: crimson;
+  color: #006d9e;
+
+  font-size: 10px;
+  border: 1px solid green;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  /* margin-left: 5px; */
+}
+
+.carCard__itemPriceReturn:hover {
+  background-color: #006d9e;
+  color: #006d9e;
+  color: white;
+  cursor: pointer;
+}
+
+.carCard__buttonBox {
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+}

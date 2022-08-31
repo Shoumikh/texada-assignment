@@ -1,0 +1,23 @@
+.headerOne {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.headerOne__left {
+  display: flex;
+  justify-content: center;
+  flex: 3;
+}
+.headerOne__right {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex: 4;
+}
+.headerOne__rightItem {
+  padding: 10px 20px;
+}
